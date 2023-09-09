@@ -1,0 +1,104 @@
+:host .mat-form-field {
+    width: 100%;
+}
+
+.sidebar {
+    background: #303030;
+    height: 93vh;
+}
+
+.task-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.task-list {
+    flex-grow: 1;
+}
+
+.example-container {
+    max-width: 100%;
+    margin-bottom: 25px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.example-list {
+    border: solid 1px #ccc;
+    min-height: 60px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.example-box {
+    padding: 10px;
+    border-bottom: solid 1px #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: move;
+    font-size: 14px;
+}
+
+.head-title {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(228, 222, 222);
+    border-radius: 4px;
+    color: #777272;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.add-button {
+    width: 100%;
+    margin-top: 10px;
+}
+.task-list:nth-child(1) .example-container {
+    max-width: 100%;
+    margin-bottom: 25px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    min-height: 40px; /* Adjust the height as needed */
+}
+/* Center-align the task name box and move the emoji to the left */
+/* Style the task name input field */
+.center-task-name mat-form-field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: white;
+}
+
+.center-task-name mat-form-field input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.center-task-name mat-icon {
+    font-size: 24px; /* Adjust the size as needed */
+    margin-right: 10px;
+}
