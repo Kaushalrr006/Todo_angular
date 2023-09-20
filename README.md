@@ -14,7 +14,7 @@ This is a simple Todo List application built using Angular and styled with SCSS.
 
 Before you begin, ensure you have met the following requirements:
 
-- **Node.js**: Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
+- **Node.js**: Make sure you have Node.js installed.
 
 - **Angular CLI**: Install the Angular CLI globally using npm with the following command:
   ```
