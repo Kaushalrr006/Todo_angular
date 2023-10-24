@@ -73,4 +73,3 @@ This application uses SCSS for styling, making it easy to customize the look and
 - Material UI CDK for providing elegant UI components.
 - And of course, thanks to the open-source community for their contributions and support.
 
-Enjoy using the Angular Todo List with Material UI CDK! If you have any questions or feedback, please don't hesitate to get in touch.
